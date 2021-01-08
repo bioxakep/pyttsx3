@@ -53,7 +53,7 @@ class DriverProxy(object):
         # initialize refs
         self._engine = engine
         self._queue = []
-        self._busy = True
+        self._busy = False
         self._name = None
         self._iterator = None
         self._debug = debug
